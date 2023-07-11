@@ -1,0 +1,13 @@
+.menu-img {
+    height: 320px;
+    width: 320px;
+    transition: all 0.6s ease-in ;
+}
+
+.menu-img:hover{
+    height: 340px;
+    width: 340px;
+}
+.price{
+    color: red;
+}

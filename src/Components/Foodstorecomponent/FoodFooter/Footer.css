@@ -1,0 +1,36 @@
+.img-div{
+    align-items: center;
+    justify-content: center;
+    padding: 0px 12px 7px 0px;
+
+}
+.social-links{
+    font-size: 25px;
+}
+.arrow-div {
+    /* float: inline-end; */
+    text-align: right;
+    display: flex;
+    /* background: white; */
+    font-size: 28px;
+    color: white;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: sticky;
+}
+
+/* .scroll-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    background: white;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    transition: all 0.4s;
+} */
+

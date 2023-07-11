@@ -1,0 +1,49 @@
+.welcomeheading {
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
+}
+.ptag{
+    color: #4f4f5a;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+.welcomefoodimg{
+    height: 552px;
+}
+.welcome-div{
+    background-color: #eee;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    min-height: 60vh;
+    padding: 160px 0 60px 0;
+}
+.btnbook{
+    border-radius: 40px;
+}
+.watchlinkdiv{
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: var(--font-secondary);
+    font-weight: 600; 
+}
+.playerdiv{
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+
+.social a {
+    transition: color 0.3s;
+    color: rgba(55, 55, 63, 0.4);
+    margin: 15px 12px;
+    display: block;
+    line-height: 0;
+    text-align: center;
+}

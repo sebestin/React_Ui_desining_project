@@ -1,0 +1,13 @@
+.li-div{
+    text-decoration: none;
+list-style-type: none;
+}
+.icon-div{
+    font-size: 31px;
+
+    color: red;
+    flex-wrap: wrap;
+   
+justify-content: first baselines;
+    align-items: center;
+}

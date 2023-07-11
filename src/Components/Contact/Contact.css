@@ -1,0 +1,43 @@
+.contactheading{
+
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        color: #37517e;
+    }
+    .contactheading::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: #47b2e4;
+        bottom: 0;
+        left: calc(50% - 20px);
+    }
+
+    .card-div {
+        width: 100%;
+        border-top: 3px solid #47b2e4;
+        border-radius: 20px 0px 20px 0px;
+        border-bottom: 3px solid #47b2e4;
+        padding: 30px;
+        background: #fff;
+        box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+    }
+    .contact-div{
+        background-color: blue;
+    }
+    .developerimg{
+        height: 340px;
+        width: 400px;
+        border-radius: 50%;
+    }
+    .lable {
+        display: flex;
+        /* align-content: flex-start; */
+        text-align: left;
+    }

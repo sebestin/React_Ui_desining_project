@@ -1,0 +1,9 @@
+.footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:	#4682B4;
+    color: white;
+}
+.credits{
+    float: right;
+}

@@ -1,0 +1,10 @@
+.teamimg-div{
+    height: 150px;
+    width: 152px;
+    border-radius: 50%;
+}
+.teamsdiv{
+    background-color: #f3f5fa;
+    height: auto;
+    min-height: max-content;
+}

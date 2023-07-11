@@ -1,0 +1,12 @@
+.stats-counter {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../Assets/Images/stats-bg.jpg) center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+.stats-item{
+    font-size: 28px;
+    display: block;
+    color: #fff;
+    font-weight: 700;
+}

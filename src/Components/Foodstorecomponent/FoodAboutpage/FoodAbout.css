@@ -1,0 +1,42 @@
+.learnmore{
+        margin: 0;
+        font-size: 28px;
+        font-weight: 400;
+        font-family: var(--font-primary);
+    }
+.Aboutbg{
+    position: relative;
+ background-image: url(../../../Assets//Images/about.jpg);
+ height: 650px;
+ width: 580px;
+ padding: 20px;
+} 
+.aboutmainimg2{
+      
+ height: 378px;
+ width: 450px;  
+ padding: 10px;
+}
+
+.call-us {
+    left: 10%;
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    background-color: #fff;
+    box-shadow: 0px 2px 25px rgb(0 0 0 / 8%);
+    padding: 20px;
+    text-align: center;
+}
+.call-us p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ce1212;
+}
+
+@media (min-width:320px ) and (max-width:468px){
+    .Aboutbg{
+        height: 100vh;
+        width: 100vw;
+    }
+}

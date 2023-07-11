@@ -1,0 +1,34 @@
+.service-div{
+    background-color: #f3f5fa;
+    height: auto;
+}
+
+.transition-div{
+    color: #37517e;
+    text-align: center;
+    transition: ease-in-out 0.3s;
+    box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+padding: 50px 30px;
+transition: all ease-in-out 0.4s;
+/* background: #fff; */
+}
+
+.serviceheading {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+.serviceheading::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}

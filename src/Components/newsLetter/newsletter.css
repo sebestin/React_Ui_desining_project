@@ -1,0 +1,57 @@
+.newslettereading{
+
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+.newslettereading::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.news-div{
+    color: rgb(68, 68, 68);
+    padding: 50px 0px;
+    background: rgb(243, 245, 250);
+}
+.form-bg{
+    background-color: white;
+    height: 40px;
+    width: 319px;
+    margin-top: 30px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 15px;
+ 
+    background: rgb(255, 255, 255);
+    padding: 0px 10px;
+    border-radius: 50px;
+
+}
+.input-div{
+    border-color: transparent;
+    outline: none;
+
+}
+.btn-div{
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 15px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 8px 20px;
+    background: rgb(71, 178, 228);
+    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+    position: relative;
+}
